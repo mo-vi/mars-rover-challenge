@@ -1,0 +1,15 @@
+C:\Users\Korvacs\Desktop\XD\AccelOneChallenge\bin\Debug\net6.0\AccelOneChallenge.exe
+C:\Users\Korvacs\Desktop\XD\AccelOneChallenge\bin\Debug\net6.0\AccelOneChallenge.deps.json
+C:\Users\Korvacs\Desktop\XD\AccelOneChallenge\bin\Debug\net6.0\AccelOneChallenge.runtimeconfig.json
+C:\Users\Korvacs\Desktop\XD\AccelOneChallenge\bin\Debug\net6.0\AccelOneChallenge.dll
+C:\Users\Korvacs\Desktop\XD\AccelOneChallenge\bin\Debug\net6.0\AccelOneChallenge.pdb
+C:\Users\Korvacs\Desktop\XD\AccelOneChallenge\obj\Debug\net6.0\AccelOneChallenge.csproj.AssemblyReference.cache
+C:\Users\Korvacs\Desktop\XD\AccelOneChallenge\obj\Debug\net6.0\AccelOneChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korvacs\Desktop\XD\AccelOneChallenge\obj\Debug\net6.0\AccelOneChallenge.AssemblyInfoInputs.cache
+C:\Users\Korvacs\Desktop\XD\AccelOneChallenge\obj\Debug\net6.0\AccelOneChallenge.AssemblyInfo.cs
+C:\Users\Korvacs\Desktop\XD\AccelOneChallenge\obj\Debug\net6.0\AccelOneChallenge.csproj.CoreCompileInputs.cache
+C:\Users\Korvacs\Desktop\XD\AccelOneChallenge\obj\Debug\net6.0\AccelOneChallenge.dll
+C:\Users\Korvacs\Desktop\XD\AccelOneChallenge\obj\Debug\net6.0\refint\AccelOneChallenge.dll
+C:\Users\Korvacs\Desktop\XD\AccelOneChallenge\obj\Debug\net6.0\AccelOneChallenge.pdb
+C:\Users\Korvacs\Desktop\XD\AccelOneChallenge\obj\Debug\net6.0\AccelOneChallenge.genruntimeconfig.cache
+C:\Users\Korvacs\Desktop\XD\AccelOneChallenge\obj\Debug\net6.0\ref\AccelOneChallenge.dll
