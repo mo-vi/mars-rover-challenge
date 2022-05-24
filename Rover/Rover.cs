@@ -31,8 +31,18 @@ namespace NASA.Vehicles
         public int currentXCoordinate;
         public int currentYCoordinate;
 
+        /* 
+         * This can be refactored later to a float variable such as degrees and later develop a conversion system
+         * so the ROVER vehicle can have a more precise unit of measurement such as feet/meters/miles for movement.
+         * Also because not every planet has the same size, with the assumption that ROVER can explore other planets, this should be
+         * later refactored into a new mars class (possibly inherits a planet class inside NASA.Planets namespace) with information
+         * regarding each planet
+        */
+        public int maxGridXValue = 359;
+        public int maxGridYValue = 179;
+
         public void Move(char[] movementCommands)
-        {   
+        {
             /* Local functions (C#7) */
             void MoveBackward()
             {
@@ -80,6 +90,46 @@ namespace NASA.Vehicles
                 }
             }
 
+            void TurnLeft()
+            {
+                /* Facing direction will change one unit counterclockwise */
+                switch (currentFacingDirection)
+                {
+                    case direction.N:
+                        currentFacingDirection = direction.W;
+                        break;
+                    case direction.E:
+                        currentFacingDirection = direction.N;
+                        break;
+                    case direction.S:
+                        currentFacingDirection = direction.E;
+                        break;
+                    case direction.W:
+                        currentFacingDirection = direction.S;
+                        break;
+                }
+            }
+
+            void TurnRight()
+            {
+                /* Facing direction will change one unit clockwise */
+                switch (currentFacingDirection)
+                {
+                    case direction.N:
+                        currentFacingDirection = direction.E;
+                        break;
+                    case direction.E:
+                        currentFacingDirection = direction.S;
+                        break;
+                    case direction.S:
+                        currentFacingDirection = direction.W;
+                        break;
+                    case direction.W:
+                        currentFacingDirection = direction.N;
+                        break;
+                }
+            }
+
             if (movementCommands.Length == 0)
             {
                 Console.WriteLine("No movement commands were entered. ROVER standing by...");
@@ -98,6 +148,14 @@ namespace NASA.Vehicles
                     case 'f':
                         MoveForward();
                         Console.WriteLine($"Vehicle moved forward. Current position is {currentXCoordinate} {currentYCoordinate}");
+                        break;
+                    case 'l':
+                        TurnLeft();
+                        Console.WriteLine($"Vehicle turned left. Now facing {currentFacingDirection}");
+                        break;
+                    case 'r':
+                        TurnRight();
+                        Console.WriteLine($"Vehicle turned right. Now facing {currentFacingDirection}");
                         break;
                     default:
                         Console.WriteLine($"Movement command at index {i} was not recognized. Proceeding with the next one.");
