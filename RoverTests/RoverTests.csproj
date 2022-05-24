@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AccelOneChallenge\AccelOneChallenge.csproj" />
+    <ProjectReference Include="..\Rover\Rover.csproj" />
   </ItemGroup>
 
 </Project>

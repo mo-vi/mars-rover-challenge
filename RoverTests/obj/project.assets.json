@@ -1660,6 +1660,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Rover/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Rover.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rover.dll": {}
+        }
       }
     }
   },
@@ -6193,14 +6203,19 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Rover/1.0.0": {
+      "type": "project",
+      "path": "../Rover/Rover.csproj",
+      "msbuildProject": "../Rover/Rover.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "C:\\Users\\Korvacs\\Desktop\\AccelOneChallenge\\AccelOneChallenge\\AccelOneChallenge.csproj",
       "MSTest.TestAdapter >= 2.2.7",
       "MSTest.TestFramework >= 2.2.7",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
+      "Rover >= 1.0.0",
       "coverlet.collector >= 3.1.0"
     ]
   },
@@ -6236,8 +6251,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Korvacs\\Desktop\\AccelOneChallenge\\AccelOneChallenge\\AccelOneChallenge.csproj": {
-              "projectPath": "C:\\Users\\Korvacs\\Desktop\\AccelOneChallenge\\AccelOneChallenge\\AccelOneChallenge.csproj"
+            "C:\\Users\\Korvacs\\Desktop\\AccelOneChallenge\\Rover\\Rover.csproj": {
+              "projectPath": "C:\\Users\\Korvacs\\Desktop\\AccelOneChallenge\\Rover\\Rover.csproj"
             }
           }
         }
@@ -6287,16 +6302,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Korvacs\\Desktop\\AccelOneChallenge\\AccelOneChallenge\\AccelOneChallenge.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Korvacs\\Desktop\\AccelOneChallenge\\AccelOneChallenge\\AccelOneChallenge.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

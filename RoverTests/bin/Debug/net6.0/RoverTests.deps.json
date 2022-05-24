@@ -8,10 +8,10 @@
     ".NETCoreApp,Version=v6.0": {
       "RoverTests/1.0.0": {
         "dependencies": {
-          "AccelOneChallenge": "1.0.0",
           "MSTest.TestAdapter": "2.2.7",
           "MSTest.TestFramework": "2.2.7",
           "Microsoft.NET.Test.Sdk": "16.11.0",
+          "Rover": "1.0.0",
           "coverlet.collector": "3.1.0"
         },
         "runtime": {
@@ -1077,9 +1077,9 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "AccelOneChallenge/1.0.0": {
+      "Rover/1.0.0": {
         "runtime": {
-          "AccelOneChallenge.dll": {}
+          "Rover.dll": {}
         }
       }
     }
@@ -1706,7 +1706,7 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
-    "AccelOneChallenge/1.0.0": {
+    "Rover/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

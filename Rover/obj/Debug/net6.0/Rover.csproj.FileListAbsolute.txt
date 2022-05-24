@@ -1,0 +1,15 @@
+C:\Users\Korvacs\Desktop\AccelOneChallenge\Rover\bin\Debug\net6.0\Rover.exe
+C:\Users\Korvacs\Desktop\AccelOneChallenge\Rover\bin\Debug\net6.0\Rover.deps.json
+C:\Users\Korvacs\Desktop\AccelOneChallenge\Rover\bin\Debug\net6.0\Rover.runtimeconfig.json
+C:\Users\Korvacs\Desktop\AccelOneChallenge\Rover\bin\Debug\net6.0\Rover.dll
+C:\Users\Korvacs\Desktop\AccelOneChallenge\Rover\bin\Debug\net6.0\Rover.pdb
+C:\Users\Korvacs\Desktop\AccelOneChallenge\Rover\obj\Debug\net6.0\Rover.csproj.AssemblyReference.cache
+C:\Users\Korvacs\Desktop\AccelOneChallenge\Rover\obj\Debug\net6.0\Rover.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korvacs\Desktop\AccelOneChallenge\Rover\obj\Debug\net6.0\Rover.AssemblyInfoInputs.cache
+C:\Users\Korvacs\Desktop\AccelOneChallenge\Rover\obj\Debug\net6.0\Rover.AssemblyInfo.cs
+C:\Users\Korvacs\Desktop\AccelOneChallenge\Rover\obj\Debug\net6.0\Rover.csproj.CoreCompileInputs.cache
+C:\Users\Korvacs\Desktop\AccelOneChallenge\Rover\obj\Debug\net6.0\Rover.dll
+C:\Users\Korvacs\Desktop\AccelOneChallenge\Rover\obj\Debug\net6.0\refint\Rover.dll
+C:\Users\Korvacs\Desktop\AccelOneChallenge\Rover\obj\Debug\net6.0\Rover.pdb
+C:\Users\Korvacs\Desktop\AccelOneChallenge\Rover\obj\Debug\net6.0\Rover.genruntimeconfig.cache
+C:\Users\Korvacs\Desktop\AccelOneChallenge\Rover\obj\Debug\net6.0\ref\Rover.dll
