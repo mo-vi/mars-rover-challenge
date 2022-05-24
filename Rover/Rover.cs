@@ -167,21 +167,41 @@ namespace NASA.Vehicles
         private void IncrementXPosition()
         {
             currentXCoordinate += 1;
+
+            if (currentXCoordinate > maxGridXValue)
+            {
+                currentXCoordinate = 0;
+            }
         }
 
         private void DecrementXPosition()
         {
             currentXCoordinate -= 1;
+
+            if (currentXCoordinate < 0)
+            {
+                currentXCoordinate = maxGridXValue;
+            }
         }
 
         private void IncrementYPosition()
         {
             currentYCoordinate += 1;
+
+            if (currentYCoordinate > maxGridYValue)
+            {
+                currentYCoordinate = 0;
+            }
         }
 
         private void DecrementYPosition()
         {
             currentYCoordinate -= 1;
+
+            if (currentYCoordinate < 0)
+            {
+                currentYCoordinate = maxGridYValue;
+            }
         }
 
         public static void Main()
